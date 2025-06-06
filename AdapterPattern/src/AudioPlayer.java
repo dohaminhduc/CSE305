@@ -1,4 +1,4 @@
-package CSE_305_Lab2.AdapterPattern.src;
+package CSE_305.AdapterPattern.src;
 
 // Lớp sử dụng giao diện MediaPlayer
 class AudioPlayer implements MediaPlayer {

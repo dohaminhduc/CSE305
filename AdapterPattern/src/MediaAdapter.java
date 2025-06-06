@@ -1,4 +1,4 @@
-package CSE_305_Lab2.AdapterPattern.src;
+package CSE_305.AdapterPattern.src;
 
 // Adapter: Chuyển đổi từ AdvancedMediaPlayer sang MediaPlayer
 class MediaAdapter implements MediaPlayer {

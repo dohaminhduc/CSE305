@@ -1,4 +1,4 @@
-package CSE_305_Lab2.AdapterPattern.src;
+package CSE_305.AdapterPattern.src;
 
 public class Main {
     public static void main(String[] args) {

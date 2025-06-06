@@ -1,4 +1,4 @@
-package org.example;
+package CSE_305.Lab5_BuilderPattern;
 
 public class Main {
     public static void main(String[] args) {

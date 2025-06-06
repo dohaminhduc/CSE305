@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab6_FactoryMethod;
+package CSE_305.Lab6_FactoryMethod;
 
 public abstract class RequestCreator {
     public abstract RequestProduct createRequest();

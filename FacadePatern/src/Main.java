@@ -1,4 +1,4 @@
-package CSE_305_Lab2.FacadePatern.src;
+package CSE_305.FacadePatern.src;
 
 public class Main {
     public static void main(String[] args) {

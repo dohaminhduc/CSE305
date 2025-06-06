@@ -1,4 +1,4 @@
-package CSE_305_Lab2.AdapterPattern.src;
+package CSE_305.AdapterPattern.src;
 
 // Target: Giao diện mà client sử dụng
 interface MediaPlayer {

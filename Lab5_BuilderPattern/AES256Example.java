@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab5_BuilderPattern;
+package CSE_305.Lab5_BuilderPattern;
 import java.io.*;
 import java.util.*;
 import javax.crypto.*;

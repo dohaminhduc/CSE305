@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab5_BuilderPattern;
+package CSE_305.Lab5_BuilderPattern;
 
 class Client {
     public RentalContract requestCreateRentalContract(Contract builder, String contractID, String propertyID, String tenantID, double rentAmount, String contractType) {

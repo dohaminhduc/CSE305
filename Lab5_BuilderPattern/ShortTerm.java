@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab5_BuilderPattern;
+package CSE_305.Lab5_BuilderPattern;
 
 public class ShortTerm implements  Contract{
     private String conTractID;

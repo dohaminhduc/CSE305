@@ -1,4 +1,5 @@
-package CSE_305_Lab2.Lab6_FactoryMethod;
+package CSE_305.Lab6_FactoryMethod;
+
 
 public interface RequestProduct{
     void setPriority();

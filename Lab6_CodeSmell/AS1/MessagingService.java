@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab6_CodeSmell.AS1;
+package CSE_305.Lab6_CodeSmell.AS1;
 
 
 import java.util.*;

@@ -1,4 +1,4 @@
-package CSE_305_Lab2.Lab5_BuilderPattern;
+package CSE_305.Lab5_BuilderPattern;
 
 public class LongTerm implements Contract {
     private String contractID;
