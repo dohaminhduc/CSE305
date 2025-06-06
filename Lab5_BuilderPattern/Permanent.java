@@ -1,34 +1,33 @@
 package CSE_305_Lab2.Lab5_BuilderPattern;
 
 public class Permanent implements Contract {
-    private String contractID;
-    private int rentAmount;
+    private String conTractID;
+    private double rentAmount;
     private String tenantID;
     private String propertyID;
-    private Contract contract;
 
     @Override
-    public void BuildContractID(String contractID){
-        this.contractID = contractID;
+    public void BuildContractID(String id) {
+        this.conTractID = id;
     }
 
     @Override
-    public void BuildRentAmount(int rentAmount){
-        this.rentAmount = rentAmount;
+    public void BuildPropertyID(String id) {
+        this.propertyID = id;
     }
 
     @Override
-    public void BuildTenantID(String tenantID){
-        this.tenantID = tenantID;
-    }
-    
-    @Override 
-    public void BuildPropertyID(String propertyID){
-        this.propertyID = propertyID;
+    public void BuildTenantID(String id) {
+        this.tenantID = id;
     }
 
     @Override
-    public Contract SignContract(Contract contract) {
-        return this.contract = contract;
+    public void BuildRentAmount(double amount) {
+        this.rentAmount = amount;
+    }
+
+    @Override
+    public RentalContract SignContract(String type) {
+        return new RentalContract(conTractID, rentAmount, tenantID, propertyID, type);
     }
 }

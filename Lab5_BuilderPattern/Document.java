@@ -1,23 +1,19 @@
 package CSE_305_Lab2.Lab5_BuilderPattern;
 
-abstract class Document {
+
+public abstract class Document {
     protected String extension;
-    protected String encryption;
+    protected boolean encryption;
+    protected String content;
+    protected String fileName;
 
-    public Document() {
-        this.extension = "";
-        this.encryption = "";
+    public void setExtension(String extension) {
+        this.extension = extension;
     }
 
-    public abstract void setExtension();
-    public abstract void setEncryption();
-    public abstract Document buildDoc();
-
-    public String getExtension() {
-        return extension;
+    public void setEncryption(boolean encryption) {
+        this.encryption = encryption;
     }
 
-    public String getEncryption() {
-        return encryption;
-    }
+    public abstract void buildDoc();
 }
